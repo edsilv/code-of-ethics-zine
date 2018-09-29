@@ -4,7 +4,7 @@
   "description": "A reproduction of http://www.artzines.info/barnard-zine-library-new-york/ in IIIF and Dat formats.",
   "main": "index.js",
   "scripts": {
-    "build": "biiif collection -u https://edsilv.github.io/code-of-ethics-zine/collection"
+    "build": "biiif collection -u https://edsilv.github.io/code-of-ethics-zine/collection -g"
   },
   "repository": {
     "type": "git",
