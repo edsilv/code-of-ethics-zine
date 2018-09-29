@@ -1,0 +1,20 @@
+{
+  "name": "code-of-ethics-zine",
+  "version": "1.0.0",
+  "description": "A reproduction of http://www.artzines.info/barnard-zine-library-new-york/ in IIIF and Dat formats.",
+  "main": "index.js",
+  "scripts": {
+    "build": "biiif collection -u https://edsilv.github.io/code-of-ethics-zine/collection"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsilv/code-of-ethics-zine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsilv/code-of-ethics-zine/issues"
+  },
+  "homepage": "https://github.com/edsilv/code-of-ethics-zine#readme"
+}
