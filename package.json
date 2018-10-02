@@ -4,7 +4,7 @@
   "description": "A reproduction of http://www.artzines.info/barnard-zine-library-new-york/ in IIIF and Dat formats.",
   "main": "index.js",
   "scripts": {
-    "build": "biiif collection -u https://edsilv.github.io/code-of-ethics-zine/collection -g"
+    "build": "./node_modules/.bin/biiif collection -u https://edsilv.github.io/code-of-ethics-zine/collection -g"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/edsilv/code-of-ethics-zine/issues"
   },
-  "homepage": "https://github.com/edsilv/code-of-ethics-zine#readme"
+  "homepage": "https://github.com/edsilv/code-of-ethics-zine#readme",
+  "devDependencies": {
+    "biiif-cli": "^0.1.10"
+  }
 }
