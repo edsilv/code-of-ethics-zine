@@ -865,9 +865,36 @@
   ],
   "label": {
     "@none": [
-      "collection"
+      "Code of Ethics Zine"
     ]
   },
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "license"
+        ]
+      },
+      "value": {
+        "@none": [
+          "CC BY-NC 4.0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "description"
+        ]
+      },
+      "value": {
+        "@none": [
+          "A reproduction of http://www.artzines.info/barnard-zine-library-new-york/ in IIIF format."
+        ]
+      }
+    }
+  ],
+  "attribution": "http://www.artzines.info",
   "behavior": [
     "paged"
   ]
